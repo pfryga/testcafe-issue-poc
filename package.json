@@ -1,0 +1,27 @@
+{
+  "name": "testcafe-issue-poc",
+  "version": "1.0.0",
+  "description": "",
+  "engines": {
+    "node": ">=16.1.0",
+    "npm": ">=7.0.0"
+  },
+  "scripts": {
+    "visual-regression": "testcafe --app-init-delay 10000 \"puppeteer:no_sandbox\" --screenshots \"./screenshots/visual-regression/puppeteer\" \"./vr-test.js\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pfryga/testcafe-issue-poc.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pfryga/testcafe-issue-poc/issues"
+  },
+  "homepage": "https://github.com/pfryga/testcafe-issue-poc#readme",
+  "devDependencies": {
+    "puppeteer": "8.0.0",
+    "testcafe": "1.18.1",
+    "testcafe-browser-provider-puppeteer": "github:pfryga/testcafe-browser-provider-puppeteer#puppeteer-fork"
+  }
+}
