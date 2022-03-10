@@ -7,7 +7,7 @@
     "npm": ">=7.0.0"
   },
   "scripts": {
-    "visual-regression": "testcafe --app-init-delay 10000 \"puppeteer:no_sandbox\" --screenshots \"./screenshots/visual-regression/puppeteer\" \"./vr-test.js\""
+    "visual-regression": "testcafe --app-init-delay 10000 \"puppeteer:no_sandbox\" --screenshots \"./screenshots\" \"./vr-test.js\""
   },
   "repository": {
     "type": "git",
